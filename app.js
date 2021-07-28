@@ -9,6 +9,10 @@ function addCells(rows, cols) {
     for (let i = 1; i <= rows * cols; i++) {
         let cell = document.createElement("div");
         cell.classList.add("grid-item");
+        cell.addEventListener("mouseover", function colorCell(e) {
+            e.target.style.background = "rgba(0, 0, 0, .9)";
+            e.target.style.border = "0px";
+        });
         cell.textContent = `${i}`;
         gridContainer.appendChild(cell);
     }
