@@ -1,1 +1,1 @@
-This is an Etch-a-Sketch clone that runs in the browser. The goal of this project is to practice and learn new DOM manipulation skills. 
+This is an Etch-a-Sketch clone that runs in the browser. The goal of this project is to learn and practice new DOM manipulation skills. 
